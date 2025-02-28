@@ -1,53 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rabeah Basheer</title>
-
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rabeah Basheer - Full-stack Developer & AI Enthusiast">
+    <title>Rabeah Basheer - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <div id="particles-js"></div>
-    <div class="container">
-      <img
-        class="profile-picture"
-        src="images/IMG_7060.png"
-        alt="Profile Picture"
-      />
-      <h1>Rabeah Basheer</h1>
-      <h2>Integrated MSc in Computer Science (Artificial Intelligence & Data Science)</h2>
-      <h3>Web and Software Development Enthusiast / Freelancer</h3>
-      <ul class="profile-links">
-        <li>
-          <a href="mailto:rabeahbasheer2357@gmail.com">
-            <img src="images/email.png" alt="email" />
-          </a>
-        </li>
-        <li>
-          <a href="https://x.com/RabeahReal&amp;s=09">
-            <img src="images/twitter.png" alt="Twitter" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/realrabeah/">
-            <img src="images/Instagram.png" alt="Instagram" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/rabeah-basheer/">
-            <img src="images/LinkedIn.png" alt="LinkedIn" />
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/raboooiii">
-            <img src="images/git.png" alt="GitHub" />
-          </a>
-        </li>
-      </ul>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" data-aos="zoom-in" data-aos-duration="1500"><span>Rabeah Basheer</span></a>
+            <ul class="nav-menu">
+                <li><a href="#home" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Home</a></li>
+                <li><a href="#about" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">About</a></li>
+                <li><a href="#skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Education</a></li>
+                <li><a href="#services" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Projects</a></li>
+                <li><a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Contact</a></li>
+            </ul>
+            <button class="nav-toggle">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="200">
+        <div class="hero-content">
+            <h1 class="name">Rabeah Basheer</h1>
+            <p class="title"><span class="typed-text">Aspiring Software Engineer & Al Enthusiast</span></p>
+            <p class="subtitle">Building modern web applications and AI solutions</p>
+            <div class="hero-buttons">
+                <a href="https://drive.google.com/file/d/1We-RfikwOIloc23qA_K6Qjn1PHrIdQEo/view?usp=sharing" class="btn">Download CV</a>
+                <div class="social-icons">
+                    <a href="https://github.com/Raboooiii"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rabeah-basheer/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com/realrabeah"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/RabeahReal"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:rabeahbasheer235@gmail.com"><i class="fa fa-envelope" ></i></a>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/dp.jpg" alt="Profile Picture" class="circle-image">
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about" id="about">
+      <div class="content">
+          <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+          <div class="about-details">
+              <div class="left" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                  <img src="images/IMG_7060.png" alt="">
+              </div>
+              <div class="right">
+                  <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Hi there, I'm Rabeah Basheer 👋, but you can call me Rabi</div>
+                  <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">Self-motivated software developer with a strong foundation in programming, Al, and data science. Passionate about building real-time applications, problem-solving, and contributing to open-source projects. Looking for an opportunity to apply my skills in a dynamic and challenging environment.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!--Services-->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500" ><span>My Projects</span></div>
+            <div class="boxes">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="https://github.com/Raboooiii/SINOVA">
+                  <div class="icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <div class="topic">Digital ICU Twin</div>
+                <p>•	Constructed an interactive Digital ICU Twin, empowering remote family members with live patient data visualizations and improving communication while reducing anxiety.
+                  <p>•	Worked as the Frontend Developer, building an intuitive UI using HTML & CSS.</p>
+                  <p>•	Collaborated with a team that implemented the backend using Python & Django.</p>
+                  </p>
+                </a>
+                    
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="https://github.com/Raboooiii/Make-A-Ton">
+                  <div class="icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="topic">BABYLON</div>
+                <p>•	Created a platform for skill-based exchanges, allowing users to trade services without monetary transactions.
+                  <p>•	Built the frontend using HTML & CSS, ensuring a user-friendly experience and backend implemented with Django</p>
+                  </p>
+                </a>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="https://github.com/Raboooiii/Chat-App">
+                  <div class="icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="topic">Real-time Chat Application</div>
+                <p>•	Developed a real-time chat application with user authentication utilizing MERN Stack
+                  <p>•	Integrated WebSockets for instant messaging.</p> </p>
+                </a>
+                    
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="https://github.com/Raboooiii/Extras/blob/main/MessManagementSystemGUI.java">
+                  <div class="icon">
+                    <i class="fab fa-android"></i>
+                </div>
+                <div class="topic" >GUI-based Mess Management System</div>
+                <p>•	JavaFX, Java
+                  <p>•	Designed a user-friendly mess management system for easy tracking.</p>
+                  <p>•	Used JavaFX for a smooth UI experience</p>
+                </p>
+                </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+     <!--Skill Section-->
+     <section class="skills" id="skills">
+      <div class="content">
+          <div class="title" data-aos="fade-up" data-aos-duration="1500" ><span>Education</span></div>
+          <div class="skills-details">
+              <div class="text">
+                  <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    Integrated MSc in
+                    Computer Science
+                    (Artificial Intelligence &
+                    Data Science)  
+                    Cochin University of Science and Technology 
+                    
+                  </div>
+                  <p data-aos="fade-right" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">Doing 2nd Year Integrated M.Sc. in Computer Science (Artificial Intelligence & Data Science) with a strong interest in software development and AI</p>
+                  <div class="experience" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                      <div class="num">3</div>
+                      <div class="exp">
+                          Semesters completed <br/>
+                          In CUSAT
+                      </div>
+                  </div>
+              </div>
+              <div class="boxes">
+                  <div class="box">
+                      <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Semester I</div>
+                      <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">80.24%</div>
+                  </div>
+                  <div class="box">
+                      <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Semester II</div>
+                      <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">80.17%</div>
+                  </div>
+                  <div class="box">
+                      <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Semester III</div>
+                      <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">80.1%</div>
+                  </div>
+                  <div class="box">
+                      <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Semester IV</div>
+                      <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">N/A</div>
+                  <!--</div>
+                  <div class="box">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Semester V</div>
+                    <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">N/A</div>
+                  </div>
+                  <div class="box">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Semester VI</div>
+                    <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">N/A</div>
+                  </div>
+                  <div class="box">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Semester VII</div>
+                    <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">N/A</div>
+                  </div>
+                  <div class="box">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Semester VIII</div>
+                    <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">N/A</div>
+                  </div>
+                  <div class="box">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Semester IX</div>
+                    <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">N/A</div>
+                  </div>
+                  <div class="box">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Semester X</div>
+                    <div class="per" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">N/A</div>
+                  </div>-->
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--Contact-->
+  <section class="contact" id="contact">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500" >
+            <span>Contact Me</span>
+        </div>
+        <div class="text">
+            <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Want to know Me better?</div>
+            <p>Go to home for my Socials Or Click "Let's Chat" to go to Whatsapp</p>
+            <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                <button><a href="https://wa.link/68lzus">Let's Chat</a></button>
+            </div>
+        </div>
     </div>
+</section>
+<!--Footer-->
+<footer>
+    <div class="text">
+        <span>Created By
+            <a href="#">Raboooiii</a>
+        | &#169: 2024 All Rights Reserved 
+        </span>
+        
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+
     <script src="particles.js"></script>
     <script src="app.js"></script>
-  </body>
+</body>
 </html>
