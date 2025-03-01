@@ -56,7 +56,7 @@
       <div class="content">
           <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
           <div class="about-details">
-              <div class="left" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+              <div class="left"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
                   <img src="images/dp.jpg" alt="">
               </div>
               <div class="right">
@@ -205,6 +205,29 @@
         </div>
     </div>
 </section>
+<!-- Updated Navbar Structure -->
+<nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo" data-aos="zoom-in" data-aos-duration="1500">
+        <span>Rabeah Basheer</span>
+      </a>
+      
+      <!-- Hamburger Menu -->
+      <button class="nav-toggle hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+  
+      <ul class="nav-menu">
+        <li><a href="#home" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Home</a></li>
+        <li><a href="#about" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">About</a></li>
+        <li><a href="#skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Education</a></li>
+        <li><a href="#services" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Projects</a></li>
+        <li><a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 <!--Footer-->
 <footer>
     <div class="text">
@@ -215,6 +238,31 @@
         
     </div>
 </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+    
+        hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('mobile');
+        });
+    
+        // Close menu when clicking outside
+        window.addEventListener('click', (e) => {
+        if (!e.target.closest('.nav-container') && navMenu.classList.contains('mobile')) {
+            navMenu.classList.remove('mobile');
+        }
+        });
+    
+        // Close menu when selecting a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            if (navMenu.classList.contains('mobile')) {
+            navMenu.classList.remove('mobile');
+            }
+        });
+        });
+    </script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
