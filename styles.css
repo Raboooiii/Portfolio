@@ -488,7 +488,7 @@ footer{
   @media (max-width: 768px) {
     .hamburger {
       display: flex;
-      margin-left: 280px;
+      margin-left: 300px;
     }
   
     .nav-menu {
