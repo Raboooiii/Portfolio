@@ -1,0 +1,22 @@
+{
+    "short_name": "Rabeah",
+    "name": "Rabeah Basheer - Portfolio",
+    "description": "Portfolio of Rabeah Basheer, a Full-stack Developer & AI Enthusiast.",
+    "icons": [
+      {
+        "src": "app.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "app.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#0e0d0d",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#2ecc71"
+  }
