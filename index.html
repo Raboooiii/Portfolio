@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rabeah Basheer - Full-stack Developer & AI Enthusiast">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2ecc71">
     <title>Rabeah Basheer - Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="/manifest.json">
 </head>
 <body>
     <div id="particles-js"></div>
@@ -34,7 +37,7 @@
         <div class="hero-content">
             <h1 class="name">Rabeah Basheer</h1>
             <p class="title"><span class="typed-text">Aspiring Software Engineer & Al Enthusiast</span></p>
-            <p class="subtitle">My Personal Portfolio Website</p>
+            <p class="subtitle">Building modern web applications and AI solutions</p>
             <div class="hero-buttons">
                 <a href="https://drive.google.com/file/d/1yxoFcaQHhi8ckFy-qB8gonCaNhliMlPm/view?usp=drive_link" class="btn">Download CV</a>
                 <div class="social-icons">
@@ -214,6 +217,19 @@
 <script>
     AOS.init({offset:0});
 </script>
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then((registration) => {
+            console.log('Service Worker registered: ', registration);
+          })
+          .catch((error) => {
+            console.log('Service Worker registration failed: ', error);
+          });
+      });
+    }
+  </script>
 
 <script src="particles.js"></script>
 <script src="app.js"></script>
